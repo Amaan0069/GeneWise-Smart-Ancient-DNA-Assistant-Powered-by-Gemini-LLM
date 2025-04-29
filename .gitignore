@@ -1,7 +1,12 @@
+# Virtual environment
+venv/
+.venv/
+.env/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-venu/
-venv/
-env/
+
+# .env files containing sensitive information
+.env
